@@ -19,6 +19,8 @@ At runtime the Mac requires Python 3.10+ with SSL, an OpenSSL command supporting
 
 The companion listens only on a private address, uses a one-time pairing code, pins the TLS certificate on iPhone, and stores a per-device token. macOS Screen Recording and Accessibility permissions remain under the Mac owner's control. Pair only devices you control, use non-sensitive data for initial tests, and stop the companion when remote access is not needed. Read `MacBridge/SETUP.md` for stopping and uninstalling the per-user service.
 
+For a source checkout, run the bridge installer from the repository root with `zsh MacBridge/install.command`. The four `MacBridge/*.command` scripts in this web-uploaded source release do not have executable file permissions. To use the double-click instructions in `MacBridge/SETUP.md`, first run `chmod +x MacBridge/*.command` from the repository root.
+
 ## Distribution status and limitations
 
 This source release is a reviewed staging copy, not a public repository yet. The separately notarized Mac companion is arm64-only; no fresh-Mac or Intel compatibility test is claimed. The iOS App Store build and notarized Mac binary were built from the MacLink worktree, but a reproducible source-to-binary build attestation for the iOS archive has not been produced. Source publication does not imply App Store approval or that an OpenAI service entitlement has been granted. Check the current [Codex app-server authentication documentation](https://learn.chatgpt.com/docs/app-server#auth-endpoints) and applicable service terms for your distribution mode.
