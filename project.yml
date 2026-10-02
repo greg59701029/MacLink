@@ -1,0 +1,59 @@
+name: MacLink
+options:
+  bundleIdPrefix: com.adam
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: "我的 Mac"
+    INFOPLIST_KEY_NSLocalNetworkUsageDescription: "MacLink 需要在你的私人 Wi-Fi 上連線到你自己的 Mac。"
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    CODE_SIGN_STYLE: Automatic
+targets:
+  MacLink:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/MacLink
+      - path: AppIcons/AppIcon-20@2x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-20@3x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-29@2x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-29@3x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-40@2x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-40@3x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-60@2x.png
+        buildPhase: resources
+      - path: AppIcons/AppIcon-60@3x.png
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.adam.maclink
+        PRODUCT_NAME: MacLink
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SDKROOT: iphoneos
+        SWIFT_VERSION: "5.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Info.plist
+schemes:
+  MacLink:
+    build:
+      targets:
+        MacLink: all
+    run:
+      config: Debug
+    archive:
+      config: Release
