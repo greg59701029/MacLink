@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABB00000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000002 /* PrivacyInfo.xcprivacy */; };
+		AABB00000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000004 /* Assets.xcassets */; };
+		42C3BB8616F97557BF89C660 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E73239F6591F5DC0018AE3 /* KeychainStore.swift */; };
+		4B87B75D48A7BBA2CCE9F0F4 /* AppIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AD5B2D4CBD31E5042493F7 /* AppIcon-60@2x.png */; };
+		5E548B29FB887DE99D7A7690 /* AppIcon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8534C30515014E0A9F42B67 /* AppIcon-20@2x.png */; };
+		5E6BD8239B79E810245ED8E5 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD089BD8F5A9AD37D29EC20 /* ScreenView.swift */; };
+		5F9FF775E927C10DFF10477F /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4EADCD0B4CE0AACDF283A /* AssistantView.swift */; };
+		60A6DB700567DC454AAD8523 /* AppIcon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFF613A67EEA51859806807 /* AppIcon-40@2x.png */; };
+		63FFCFBDC115416593F0C110 /* AppIcon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6583D06D977E8384FCF45E9 /* AppIcon-29@3x.png */; };
+		66FBB773A8AC347C0D016189 /* MacLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1347F92E090D792757A859 /* MacLinkApp.swift */; };
+		6A49F9D5C0CC5849BDE19E54 /* MacLinkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D3F60C26B4CFE8A231A8F /* MacLinkClient.swift */; };
+		73144C9266018C6475C37C1B /* AppIcon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D475E72462C331BE26B165 /* AppIcon-40@3x.png */; };
+		73ED762EBCD6CC30A39D911C /* AppIcon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF723767B54B6F979E9243 /* AppIcon-60@3x.png */; };
+		74F217A338E6410849C48C63 /* AppIcon-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F081F4E527544F210D41F9 /* AppIcon-20@3x.png */; };
+		82EC9631E2930538D446A653 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E88A2375CAF82A53C955CC /* Models.swift */; };
+		93B0D47DEDBF256772FEF82E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA98CDC23F57FB363C36A1 /* AppModel.swift */; };
+		98CEFE1C67DD652F81DB1A19 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EECAD5691D9C24A3FE31DC5 /* FilesView.swift */; };
+		E99B1A7212FB64FC2EF1B125 /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B04044D0A96ABBB431187 /* PairingView.swift */; };
+		ED74FFAE7921DA364CCB3A5E /* AppIcon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FF9D844A09036E24F47016 /* AppIcon-29@2x.png */; };
+		FA54263F3CC8891A5AA6AC0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBEDA9E4F3F6CB0E03054CF /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABB00000000000000000002 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AABB00000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09D475E72462C331BE26B165 /* AppIcon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-40@3x.png"; sourceTree = "<group>"; };
+		1B1347F92E090D792757A859 /* MacLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLinkApp.swift; sourceTree = "<group>"; };
+		25FF9D844A09036E24F47016 /* AppIcon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-29@2x.png"; sourceTree = "<group>"; };
+		36E88A2375CAF82A53C955CC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3EECAD5691D9C24A3FE31DC5 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
+		4BFF613A67EEA51859806807 /* AppIcon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-40@2x.png"; sourceTree = "<group>"; };
+		4FCF723767B54B6F979E9243 /* AppIcon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-60@3x.png"; sourceTree = "<group>"; };
+		62F081F4E527544F210D41F9 /* AppIcon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-20@3x.png"; sourceTree = "<group>"; };
+		6FD089BD8F5A9AD37D29EC20 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		71AD5B2D4CBD31E5042493F7 /* AppIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-60@2x.png"; sourceTree = "<group>"; };
+		A0A7485C4278E11560E673F0 /* MacLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6583D06D977E8384FCF45E9 /* AppIcon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-29@3x.png"; sourceTree = "<group>"; };
+		C1E73239F6591F5DC0018AE3 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		CDB4EADCD0B4CE0AACDF283A /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
+		DC0B04044D0A96ABBB431187 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		E39D3F60C26B4CFE8A231A8F /* MacLinkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLinkClient.swift; sourceTree = "<group>"; };
+		E7AA98CDC23F57FB363C36A1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		E8534C30515014E0A9F42B67 /* AppIcon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-20@2x.png"; sourceTree = "<group>"; };
+		ECBEDA9E4F3F6CB0E03054CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		429DA2E594239D2396F73597 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				E8534C30515014E0A9F42B67 /* AppIcon-20@2x.png */,
+				62F081F4E527544F210D41F9 /* AppIcon-20@3x.png */,
+				25FF9D844A09036E24F47016 /* AppIcon-29@2x.png */,
+				B6583D06D977E8384FCF45E9 /* AppIcon-29@3x.png */,
+				4BFF613A67EEA51859806807 /* AppIcon-40@2x.png */,
+				09D475E72462C331BE26B165 /* AppIcon-40@3x.png */,
+				71AD5B2D4CBD31E5042493F7 /* AppIcon-60@2x.png */,
+				4FCF723767B54B6F979E9243 /* AppIcon-60@3x.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		5762249D7E47599723F7D5AB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A09250585903315330EDE0AC /* MacLink */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A09250585903315330EDE0AC /* MacLink */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA98CDC23F57FB363C36A1 /* AppModel.swift */,
+				CDB4EADCD0B4CE0AACDF283A /* AssistantView.swift */,
+				3EECAD5691D9C24A3FE31DC5 /* FilesView.swift */,
+				ECBEDA9E4F3F6CB0E03054CF /* HomeView.swift */,
+				C1E73239F6591F5DC0018AE3 /* KeychainStore.swift */,
+				1B1347F92E090D792757A859 /* MacLinkApp.swift */,
+				E39D3F60C26B4CFE8A231A8F /* MacLinkClient.swift */,
+				36E88A2375CAF82A53C955CC /* Models.swift */,
+				DC0B04044D0A96ABBB431187 /* PairingView.swift */,
+				6FD089BD8F5A9AD37D29EC20 /* ScreenView.swift */,
+			);
+			path = MacLink;
+			sourceTree = "<group>";
+		};
+		B2A23EF113C80A4A823E6844 = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000002 /* PrivacyInfo.xcprivacy */,
+				AABB00000000000000000004 /* Assets.xcassets */,
+				429DA2E594239D2396F73597 /* AppIcons */,
+				5762249D7E47599723F7D5AB /* Sources */,
+				B84D35CBB112F938ADD70BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B84D35CBB112F938ADD70BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A7485C4278E11560E673F0 /* MacLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		243BD4E18D553E02048F16A3 /* MacLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069066D4EC9273E6F7C874D5 /* Build configuration list for PBXNativeTarget "MacLink" */;
+			buildPhases = (
+				2C087F13C5E6CF0214DBA432 /* Sources */,
+				F4DEBBBACFBD39A36E3A3035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLink;
+			packageProductDependencies = (
+			);
+			productName = MacLink;
+			productReference = A0A7485C4278E11560E673F0 /* MacLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CABA2B7190CC67342C68349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					243BD4E18D553E02048F16A3 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D643A34EF7C3E01199B7A03 /* Build configuration list for PBXProject "MacLink" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B2A23EF113C80A4A823E6844;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B84D35CBB112F938ADD70BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				243BD4E18D553E02048F16A3 /* MacLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DEBBBACFBD39A36E3A3035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB00000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+				AABB00000000000000000003 /* Assets.xcassets in Resources */,
+				5E548B29FB887DE99D7A7690 /* AppIcon-20@2x.png in Resources */,
+				74F217A338E6410849C48C63 /* AppIcon-20@3x.png in Resources */,
+				ED74FFAE7921DA364CCB3A5E /* AppIcon-29@2x.png in Resources */,
+				63FFCFBDC115416593F0C110 /* AppIcon-29@3x.png in Resources */,
+				60A6DB700567DC454AAD8523 /* AppIcon-40@2x.png in Resources */,
+				73144C9266018C6475C37C1B /* AppIcon-40@3x.png in Resources */,
+				4B87B75D48A7BBA2CCE9F0F4 /* AppIcon-60@2x.png in Resources */,
+				73ED762EBCD6CC30A39D911C /* AppIcon-60@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C087F13C5E6CF0214DBA432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B0D47DEDBF256772FEF82E /* AppModel.swift in Sources */,
+				5F9FF775E927C10DFF10477F /* AssistantView.swift in Sources */,
+				98CEFE1C67DD652F81DB1A19 /* FilesView.swift in Sources */,
+				FA54263F3CC8891A5AA6AC0B /* HomeView.swift in Sources */,
+				42C3BB8616F97557BF89C660 /* KeychainStore.swift in Sources */,
+				66FBB773A8AC347C0D016189 /* MacLinkApp.swift in Sources */,
+				6A49F9D5C0CC5849BDE19E54 /* MacLinkClient.swift in Sources */,
+				82EC9631E2930538D446A653 /* Models.swift in Sources */,
+				E99B1A7212FB64FC2EF1B125 /* PairingView.swift in Sources */,
+				5E6BD8239B79E810245ED8E5 /* ScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12EB83FE9E377F12BF7613D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "我的 Mac";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MacLink 需要在你的私人 Wi-Fi 上連線到你自己的 Mac。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6EEB377E3552D9093156A993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QNDCKFM772;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.maclink;
+				PRODUCT_NAME = MacLink;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F53E3E2FD00520590C6277C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QNDCKFM772;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.maclink;
+				PRODUCT_NAME = MacLink;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BDFCAA32E2DE88F301FB8DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "我的 Mac";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MacLink 需要在你的私人 Wi-Fi 上連線到你自己的 Mac。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069066D4EC9273E6F7C874D5 /* Build configuration list for PBXNativeTarget "MacLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEB377E3552D9093156A993 /* Debug */,
+				6F53E3E2FD00520590C6277C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D643A34EF7C3E01199B7A03 /* Build configuration list for PBXProject "MacLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFCAA32E2DE88F301FB8DD8 /* Debug */,
+				12EB83FE9E377F12BF7613D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CABA2B7190CC67342C68349 /* Project object */;
+}
